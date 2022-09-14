@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.48f3da15.css",
+    "main.js": "/static/js/main.0c29f53c.js",
+    "static/js/787.c1256c93.chunk.js": "/static/js/787.c1256c93.chunk.js",
+    "static/media/t-shirt-nike.png": "/static/media/t-shirt-nike.2a092a8b23e90fea4035.png",
+    "static/media/clothe-adidas.png": "/static/media/clothe-adidas.5ca0e0700a3ca24a2c79.png",
+    "static/media/watch.png": "/static/media/watch.3ab5df7aa10e717d1942.png",
+    "static/media/belt.png": "/static/media/belt.27408387b97e612bafb2.png",
+    "static/media/shoe-1.png": "/static/media/shoe-1.1423b651dba0f72b0eb3.png",
+    "static/media/shoe-2.png": "/static/media/shoe-2.14f3198c3381ea1ce557.png",
+    "static/media/test.jpg": "/static/media/test.68fbd87cbb6e2f32100c.jpg",
+    "static/media/rolex.png": "/static/media/rolex.edef312715602b38b671.png",
+    "static/media/adidas-png.png": "/static/media/adidas-png.d265b95558fd20af2433.png",
+    "static/media/louis_vuitton.png": "/static/media/louis_vuitton.1459eb60c50ae0b7dc75.png",
+    "index.html": "/index.html",
+    "main.48f3da15.css.map": "/static/css/main.48f3da15.css.map",
+    "main.0c29f53c.js.map": "/static/js/main.0c29f53c.js.map",
+    "787.c1256c93.chunk.js.map": "/static/js/787.c1256c93.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48f3da15.css",
+    "static/js/main.0c29f53c.js"
+  ]
+}
