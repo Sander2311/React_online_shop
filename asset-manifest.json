@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React_online_shop/static/css/main.48f3da15.css",
-    "main.js": "/React_online_shop/static/js/main.b04c00ae.js",
+    "main.css": "/React_online_shop/static/css/main.1a074f16.css",
+    "main.js": "/React_online_shop/static/js/main.14996928.js",
     "static/js/787.c1256c93.chunk.js": "/React_online_shop/static/js/787.c1256c93.chunk.js",
     "static/media/t-shirt-nike.png": "/React_online_shop/static/media/t-shirt-nike.2a092a8b23e90fea4035.png",
     "static/media/clothe-adidas.png": "/React_online_shop/static/media/clothe-adidas.5ca0e0700a3ca24a2c79.png",
@@ -9,17 +9,22 @@
     "static/media/belt.png": "/React_online_shop/static/media/belt.27408387b97e612bafb2.png",
     "static/media/shoe-1.png": "/React_online_shop/static/media/shoe-1.1423b651dba0f72b0eb3.png",
     "static/media/shoe-2.png": "/React_online_shop/static/media/shoe-2.14f3198c3381ea1ce557.png",
+    "static/media/img1-1.jpg": "/React_online_shop/static/media/img1-1.d2ce6f482f78ab10870e.jpg",
+    "static/media/img1-2.jpg": "/React_online_shop/static/media/img1-2.c8c81f87ef0cc1fb1999.jpg",
+    "static/media/img1-3.jpg": "/React_online_shop/static/media/img1-3.645619ff598b8e6b0842.jpg",
     "static/media/test.jpg": "/React_online_shop/static/media/test.68fbd87cbb6e2f32100c.jpg",
     "static/media/rolex.png": "/React_online_shop/static/media/rolex.edef312715602b38b671.png",
     "static/media/adidas-png.png": "/React_online_shop/static/media/adidas-png.d265b95558fd20af2433.png",
     "static/media/louis_vuitton.png": "/React_online_shop/static/media/louis_vuitton.1459eb60c50ae0b7dc75.png",
+    "static/media/star-icon.svg": "/React_online_shop/static/media/star-icon.b2d2bbf009809f7b17503742ea9101c6.svg",
+    "static/media/star-icon-color.svg": "/React_online_shop/static/media/star-icon-color.59a3c4f1b4293955fac63452d73167d4.svg",
     "index.html": "/React_online_shop/index.html",
-    "main.48f3da15.css.map": "/React_online_shop/static/css/main.48f3da15.css.map",
-    "main.b04c00ae.js.map": "/React_online_shop/static/js/main.b04c00ae.js.map",
+    "main.1a074f16.css.map": "/React_online_shop/static/css/main.1a074f16.css.map",
+    "main.14996928.js.map": "/React_online_shop/static/js/main.14996928.js.map",
     "787.c1256c93.chunk.js.map": "/React_online_shop/static/js/787.c1256c93.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.48f3da15.css",
-    "static/js/main.b04c00ae.js"
+    "static/css/main.1a074f16.css",
+    "static/js/main.14996928.js"
   ]
 }
