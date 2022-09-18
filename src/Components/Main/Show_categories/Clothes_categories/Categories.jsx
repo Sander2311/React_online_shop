@@ -10,12 +10,12 @@ import { useMotionValue, useTransform } from "framer-motion";
 function Categories() {
     const[currentColor, setCurrentColor] = useState(1);
 
-    const x = useMotionValue(0);
-    const y = useMotionValue(0);
+    // const x = useMotionValue(0);
+    // const y = useMotionValue(0);
 
-    const rotateX = useTransform(y, [-100, 100], [30, -30]);
+    // const rotateX = useTransform(y, [-100, 100], [30, -30]);
 
-    const rotateY = useTransform(x, [-100, 100], [30, -30]);
+    // const rotateY = useTransform(x, [-100, 100], [30, -30]);
 
     const variants ={
         default: {
@@ -38,11 +38,11 @@ function Categories() {
         <Wrapper>
             <Container>
                 <CardWrapper 
-                    style={{x, y, rotateX, rotateY, z: 100}}
-                    drag 
-                    dragConstraints={{top:0, right:0, bottom:0, left:0}} 
-                    dragElastic={0.16} 
-                    whileTap={{cursor: "grabbing"}}
+                    // style={{x, y, rotateX, rotateY, z: 100}}
+                    // drag 
+                    // dragConstraints={{top:0, right:0, bottom:0, left:0}} 
+                    // dragElastic={0.16} 
+                    // whileTap={{cursor: "grabbing"}}
                     >
                     <h1 className="categorie_title">Одяг</h1>
                     <Card>
@@ -58,7 +58,9 @@ function Categories() {
                                     }
                                 </Description>
                             </CTopText>
-                            <Shoes style={{x, y, rotateX, rotateY, z: 10000}}>
+                            <Shoes 
+                                // style={{x, y, rotateX, rotateY, z: 10000}}
+                            >
                                 <ShoeOne 
                                     src={Clothe_1} 
                                     alt="shoe-1" 

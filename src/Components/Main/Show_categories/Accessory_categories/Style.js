@@ -117,41 +117,41 @@ export const Shoes = styled(motion.div)`
 export const ShoeOne = styled(motion.img)`
     width: 20rem;
     position: absolute;
-    top: -24rem;
-    right: -8rem;
+    top: -7rem;
+    right: -5rem;
     transform: rotate(45deg);
     transition: transform 1s;
 
     @media (max-width: 850px) {
         width: 15rem;
-        top: -19rem;
-        right: -8rem;
+        top: -5rem;
+        right: -4rem;
       }
 
       @media (max-width: 575px) {
         width: 11rem;
-        top: -19rem;
-        right: -5rem;
+        top: -3rem;
+        right: -3rem;
       }
 `;
 
 export const ShoeTwo = styled(motion.img)`
     width: 17rem;
     position: absolute;
-    top: -23rem;
-    right: -47rem;
+    top: -5rem;
+    right: -43rem;
     transition: transform 1s;
 
     @media (max-width: 850px) {
         width: 14rem;
-        top: -21rem;
-        right: -46rem;
+        top: -4rem;
+        right: -42rem;
       }
 
       @media (max-width: 575px) {
         width: 10rem;
-        top: -19rem;
-        right: -45rem;
+        top: -3rem;
+        right: -41rem;
       }
 `;
 

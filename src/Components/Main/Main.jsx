@@ -2,11 +2,11 @@ import { useEffect, useState } from "react";
 
 import s from "./Main.module.css";
 import shop_items from "./Shop_items";
-import Card_item from "./Card_item"
+import CardItem from "./Card_item"
 import Filter from "./Filter";
-import Categories_shoe from "./Show_categories/Shoe_categories/Categories";
-import Categories_clothes from "./Show_categories/Clothes_categories/Categories";
-import Categories_accessory from "./Show_categories/Accessory_categories/Categories";
+import CategoriesShoe from "./Show_categories/Shoe_categories/Categories";
+import CategoriesClothes from "./Show_categories/Clothes_categories/Categories";
+import CategoriesAccessory from "./Show_categories/Accessory_categories/Categories";
 import {motion, AnimatePresence} from "framer-motion";
 
 
@@ -39,9 +39,9 @@ function Main() {
                 </ul>
             </div>
             <div className={s.cateoriesgWrapper}>
-                <Categories_shoe />
-                <Categories_clothes />
-                <Categories_accessory />
+                <CategoriesShoe />
+                <CategoriesClothes />
+                <CategoriesAccessory />
             </div>
             <Filter assortment={assortment} setFiltered={setFiltered} activeBtn={activeBtn} setActiveBtn={setActiveBtn}/>
             <motion.div
@@ -49,12 +49,12 @@ function Main() {
             >
                 <AnimatePresence>
                     {filtered.map((item) =>{
-                        return <Card_item key={item.id} item={item}/>
+                        return <CardItem key={item.id} item={item}/>
                     }).reverse()}
                 </AnimatePresence>
             </motion.div>
             <footer className={s.footer}>
-                    <p className={s.footer_text}>Move to our instagram - <a href="/">Here</a> </p>
+                    <p className={s.footer_text}>Move to our instagram - <a href="https://www.instagram.com/kalina_p11/" target="_blank" rel="noopener">Here</a> </p>
             </footer>
         </div>
      );

@@ -16,13 +16,17 @@ function Filter({assortment, setFiltered, activeBtn, setActiveBtn}) {
         setFiltered(filtered); 
     }, [activeBtn]);
 
-    return ( 
-        <div className={s.filter_container}>
-            <button className={activeBtn === "all"? s.active : "" } onClick={() => setActiveBtn("all")}>Всі категорії</button>
-            <button className={activeBtn === "shoe"? s.active : "" } onClick={() => setActiveBtn("shoe")}>Взуття</button>
-            <button className={activeBtn === "clothes"? s.active : "" } onClick={() => setActiveBtn("clothes")}>Одяг</button>
-            <button className={activeBtn === "accessory"? s.active : "" } onClick={() => setActiveBtn("accessory")}>Аксесуари</button>
+    return (
+        <div className={s.filter}>
+                <h1 className={s.filter_title}>Фільтер</h1>
+            <div className={s.filter_container}>
+                <button className={activeBtn === "all"? s.active : "" } onClick={() => setActiveBtn("all")}>Всі категорії</button>
+                <button className={activeBtn === "shoe"? s.active : "" } onClick={() => setActiveBtn("shoe")}>Взуття</button>
+                <button className={activeBtn === "clothes"? s.active : "" } onClick={() => setActiveBtn("clothes")}>Одяг</button>
+                <button className={activeBtn === "accessory"? s.active : "" } onClick={() => setActiveBtn("accessory")}>Аксесуари</button>
+            </div>
         </div>
+            
      );
 }
 

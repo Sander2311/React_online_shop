@@ -1,9 +1,9 @@
 
 .card{
     cursor: pointer;
-    padding: 5px;
+    padding: .5rem .5rem 10rem .5rem;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 2rem;
     position: relative;
     background-color: hwb(0 96% 3%);
 }
@@ -19,13 +19,15 @@
     overflow: auto;
     flex: none;
     column-gap: 10px;
+    border-radius: 1rem;
 }
 
 img{
     scroll-snap-align: center;
     flex: none;
+    aspect-ratio: 1 / 1;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 1rem;
     object-fit: cover;
 }
 
@@ -34,36 +36,113 @@ img{
 }
 
 .info_card{
-    margin-bottom: 35px;
-    border-bottom: 1px dashed black;
+    margin: .5rem 0 0 0;
+    padding: 0 1rem;
 }
 
 .title{
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
 }
 
-.description{
-    font-style: italic;
+.sizes{
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.size_title{
     font-size: 1.5rem;
+    font-style: italic;
+    font-weight: normal;
 }
 
-.price_btn{
-    position: absolute;
-    width: max-content;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+.size_items{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+}
+
+.size{
+    background-color: #0059ff;
+    color: #fff;
+    padding: .5rem;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.quality{
     display: flex;
     align-items: center;
-    padding: 5px;
+    gap: 2rem;
+    margin-bottom: 1rem;
 }
 
-.price{
-    font-size: 2rem;
-    font-weight: bold;
+.quality_title{
+    font-size: 1.5rem;
     font-style: italic;
-    margin-right: 5px;
+    font-weight: normal;
+}
+
+.quality_icons{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+}
+
+.quality_icons >img{
+    width: 1.5rem;
+}
+
+.material{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.material_title{
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.material_text{
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.maker{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.maker_title{
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.maker_text{
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.btn_block{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
 }
 
 .btn{
@@ -71,10 +150,42 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5px 15px;
     border: none;
+    padding: 0 .5rem;
+    box-shadow: 0 .1rem 1rem black;
     border-radius: 10px;
-    background: linear-gradient(to right top, rgb(247, 151, 9), hsl(49, 97%, 49%));
+    background: #0059ff;
     color: #fff;
     font-weight: bold;
+    font-size: 1rem;
+}
+
+.btn:hover{
+    box-shadow: 0 .1rem 1.5rem black;
+    opacity: .9;
+}
+
+.btn_text{
+    width: 60%;
+}
+
+.price_block{
+    width: 16rem;
+    height: 4rem;
+    background-color: #0059ff;
+    color: #fff;
+    border-radius: 0.5rem;
+    position: absolute;
+    right: -1rem;
+    bottom: 3rem;
+    box-shadow: 0 1rem 2rem rgba(28, 71, 122, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price{
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
 }
