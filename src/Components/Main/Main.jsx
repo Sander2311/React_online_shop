@@ -14,14 +14,22 @@ function Main() {
     const [assortment, setAssortment] = useState([]);
     const [filtered, setFiltered] = useState([]);
     const [activeBtn, setActiveBtn] = useState("all");
+    const [img, setImg] = useState(0);
+    const [modal, setModal] = useState("none");
 
 
     useEffect(() =>{
         setAssortment(shop_items);
-        setFiltered(shop_items);
+        setFiltered(shop_items);        
     }, [])
 
+    useEffect(() =>{
+        if(img !== 0){
+            setModal("flex");
+        }
+    }, [img])
 
+    
 
     return ( 
         <div className={s.main}>
@@ -49,13 +57,17 @@ function Main() {
             >
                 <AnimatePresence>
                     {filtered.map((item) =>{
-                        return <CardItem key={item.id} item={item}/>
+                        return <CardItem key={item.id} item={item} setImg={setImg}/>
                     }).reverse()}
                 </AnimatePresence>
             </motion.div>
             <footer className={s.footer}>
-                    <p className={s.footer_text}>Move to our instagram - <a href="https://www.instagram.com/kalina_p11/" target="_blank" rel="noopener">Here</a> </p>
+                    <p className={s.footer_text}>Move to our instagram - <a href="https://www.instagram.com/kalina_p11/" target="_blank" rel="noreferrer">Here</a> </p>
             </footer>
+            <div id={s.myModal} className={s.modal} style={{display: modal}}>
+                <span className={s.close} onClick={() => {setModal("none"); setImg(0)}}>&times;</span>
+                <img className={s["modal-content"]} id={s.img01} src={img} alt="img"/>
+            </div>
         </div>
      );
 }

@@ -8,7 +8,7 @@ function CardBottom({currentColor, setCurrentColor}) {
         <CBottom>
             <CBottomTitleBox>
                 <CBottomTitle>{currentColor === 1 ? "Наручні годинники" : "Ремені"}</CBottomTitle>
-                <CBottomLogo src={currentColor === 1 ? Brand_1 : Brand_2} alt="logo"/>
+                <CBottomLogo src={currentColor === 1 ? Brand_1 : Brand_2} alt="logo" currentColor={currentColor}/>
             </CBottomTitleBox>
             <Title>Кращі наручні годинницик</Title>
             <div className="brands">

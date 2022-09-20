@@ -74,15 +74,18 @@ export const CTop = styled.div`
 `;
 
 export const Logo = styled.img`
-    width: 7rem;
+    width: ${({currentColor}) => currentColor === 1 ? "10rem" : "8rem"};
+    height: ${({currentColor}) => currentColor === 1 ? "5rem" : "10rem"};
     margin-bottom: 2rem;
 
     @media (max-width: 850px) {
-        width: 5rem;
+        width: ${({currentColor}) => currentColor === 1 ? "10rem" : "8rem"};
+        height: ${({currentColor}) => currentColor === 1 ? "5rem" : "10rem"};
       }
 
       @media (max-width: 575px) {
-        width: 5rem;
+        width: ${({currentColor}) => currentColor === 1 ? "8rem" : "4rem"};
+        height: ${({currentColor}) => currentColor === 1 ? "4rem" : "5rem"};
       }
 `
 export const CTopText = styled.div`
@@ -186,15 +189,18 @@ export const CBottomTitle = styled.h1`
 `;
 
 export const CBottomLogo = styled.img`
-    width: 6rem;
+    width: ${({currentColor}) => currentColor === 1 ? "7rem" : "5rem"};
+    height: ${({currentColor}) => currentColor === 1 ? "4rem" : "6rem"};
     padding: .2rem;
 
     @media (max-width: 850px) {
-        width: 5rem;
+        width: ${({currentColor}) => currentColor === 1 ? "6rem" : "4.2rem"};
+        height: ${({currentColor}) => currentColor === 1 ? "3.3rem" : "5rem"};
       }
 
       @media (max-width: 575px) {
-        width: 4rem;
+        width: ${({currentColor}) => currentColor === 1 ? "4rem" : "4.2rem"};
+        height: ${({currentColor}) => currentColor === 1 ? "2.3rem" : "5rem"};
       }
 `;
 

@@ -5,7 +5,7 @@ import Brand_2 from "../../../../Images/louis_vuitton.png";
 import Accessory_1 from "../../../../Images/watch.png";
 import Accessory_2 from "../../../../Images/belt.png";
 import CardBottom from "./Compon/CardBottom";
-import { useMotionValue, useTransform } from "framer-motion";
+// import { useMotionValue, useTransform } from "framer-motion";
 
 function Categories() {
     const[currentColor, setCurrentColor] = useState(1);
@@ -47,7 +47,7 @@ function Categories() {
                     <h1 className="categorie_title">Аксесуари</h1>
                     <Card>
                         <CTop currentColor={currentColor}>
-                            <Logo src={currentColor === 1 ? Brand_1 : Brand_2} alt="logo"/>
+                            <Logo src={currentColor === 1 ? Brand_1 : Brand_2} alt="logo" currentColor={currentColor}/>
                             <CTopText>
                                 <CTopTitle>{currentColor === 1 ? "Годинники" : "Ремені"}</CTopTitle>
                                 <Description>

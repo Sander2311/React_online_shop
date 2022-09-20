@@ -6,7 +6,7 @@ import star_icon_color from "../../Images/star-icon-color.svg"
 
 
 
-function Card({item}) {
+function Card({item, setImg}) {
 
     let idImg = 0;
     let idSizes = 0;
@@ -75,7 +75,7 @@ function Card({item}) {
             <div className={s.container}>
                 {item.img_url.map((img) =>{
                     idImg += 1;
-                    return <img src={img} key={idImg} alt="error"/>
+                    return <img src={img} key={idImg} alt="error" onClick={() => setImg(img)}/>
                 })}
             </div>
             <div className={s.info_card}>
@@ -103,13 +103,16 @@ function Card({item}) {
                         <div className={s.maker_text}>{item.maker}</div> 
                     </div>
                     <div className={s.btn_block}>
-                        <button className={s.btn} onClick={(e) => window.open('https://www.instagram.com/direct/t/340282366841710300949128168046407494337')}>Перейти в Instagram</button>
+                        <button 
+                            className={s.btn} 
+                            onClick={(e) => window.open('https://www.instagram.com/direct/t/340282366841710300949128168046407494337')}
+                        >Перейти в Instagram</button>
                         <p className={s.btn_text}>Щоб дізнатись детальну інформацію про товар або замовити його, пишіть в Direct в Instagram</p>
                     </div>
                 </div>
                 <div className={s.price_block}>
                     <p className={s.price}>{item.price} uah</p> 
-                </div>
+                </div> 
             </div>
         </motion.div>
      );
