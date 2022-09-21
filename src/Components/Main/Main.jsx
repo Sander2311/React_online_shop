@@ -34,16 +34,18 @@ function Main() {
     return ( 
         <div className={s.main}>
             <div className={s.main_title_box}>
-                <ul className={s.main_title}>
+                <ul className={s.main_title}>kalyna
+                    <li>K</li>
+                    <li>A</li>
+                    <li>L</li>
+                    <li>Y</li>
+                    <li>N</li>
+                    <li>A</li>
+                    <li>_</li>
                     <li>S</li>
                     <li>H</li>
                     <li>O</li>
                     <li>P</li>
-                    <li>&ensp;</li>
-                    <li>N</li>
-                    <li>A</li>
-                    <li>M</li>
-                    <li>E</li>
                 </ul>
             </div>
             <div className={s.cateoriesgWrapper}>

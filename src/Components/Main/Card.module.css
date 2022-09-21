@@ -28,7 +28,7 @@ img{
     aspect-ratio: 1 / 1;
     width: 100%;
     border-radius: 1rem;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .container:hover{
@@ -67,12 +67,17 @@ img{
 }
 
 .size{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2rem;
     background-color: #0059ff;
     color: #fff;
     padding: .5rem;
     border-radius: 50%;
     font-weight: bold;
     font-size: 1rem;
+    letter-spacing: 0.1rem;
 }
 
 .quality{
@@ -101,8 +106,8 @@ img{
 
 .material{
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-wrap: nowrap;
     gap: 2rem;
     margin-bottom: 1rem;
 }
@@ -114,6 +119,7 @@ img{
 }
 
 .material_text{
+    width: max-content;
     font-size: 1.5rem;
     font-style: normal;
     font-weight: bold;

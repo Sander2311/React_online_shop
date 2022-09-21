@@ -75,6 +75,12 @@
 .main_title > li:nth-child(9){
     animation-delay: 1.6s;
 }
+.main_title > li:nth-child(10){
+    animation-delay: 1.8s;
+}
+.main_title > li:nth-child(11){
+    animation-delay: 2.0s;
+}
 
 .cateoriesgWrapper{
     display: flex;
@@ -133,8 +139,7 @@
   .modal-content {
     margin: auto;
     display: block;
-    width: 100%;
-    max-width: 95vh;
+    max-width: 96vh;
   }
   
   
