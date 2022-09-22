@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React_online_shop/static/css/main.dff340fe.css",
-    "main.js": "/React_online_shop/static/js/main.3069ae6a.js",
+    "main.css": "/React_online_shop/static/css/main.717ef46f.css",
+    "main.js": "/React_online_shop/static/js/main.b0063d6c.js",
     "static/js/787.c1256c93.chunk.js": "/React_online_shop/static/js/787.c1256c93.chunk.js",
     "static/media/t-shirt-nike.png": "/React_online_shop/static/media/t-shirt-nike.2a092a8b23e90fea4035.png",
     "static/media/clothe-adidas.png": "/React_online_shop/static/media/clothe-adidas.5ca0e0700a3ca24a2c79.png",
@@ -133,12 +133,12 @@
     "static/media/star-icon.svg": "/React_online_shop/static/media/star-icon.b2d2bbf009809f7b17503742ea9101c6.svg",
     "static/media/star-icon-color.svg": "/React_online_shop/static/media/star-icon-color.59a3c4f1b4293955fac63452d73167d4.svg",
     "index.html": "/React_online_shop/index.html",
-    "main.dff340fe.css.map": "/React_online_shop/static/css/main.dff340fe.css.map",
-    "main.3069ae6a.js.map": "/React_online_shop/static/js/main.3069ae6a.js.map",
+    "main.717ef46f.css.map": "/React_online_shop/static/css/main.717ef46f.css.map",
+    "main.b0063d6c.js.map": "/React_online_shop/static/js/main.b0063d6c.js.map",
     "787.c1256c93.chunk.js.map": "/React_online_shop/static/js/787.c1256c93.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dff340fe.css",
-    "static/js/main.3069ae6a.js"
+    "static/css/main.717ef46f.css",
+    "static/js/main.b0063d6c.js"
   ]
 }
