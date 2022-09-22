@@ -143,7 +143,7 @@ import img26_4 from "../../Images/img26-4.jpg";
 import img26_5 from "../../Images/img26-5.jpg";
 
 
-// item_type: "shoe", "clothes", "accessory"
+// item_type: "shoe", "jacket", "suit", "accessory"
 
 const items =[
     
@@ -157,6 +157,7 @@ const items =[
         quality: 4,
         material: "текстиль, гума",
         maker: "В'єтнам",
+        more_info: "",
     },
 
     {
@@ -169,6 +170,7 @@ const items =[
         quality: 5,
         material: "текстиль, гума",
         maker: "В'єтнам",
+        more_info: "",
     },
 
     {
@@ -181,6 +183,7 @@ const items =[
         quality: 5,
         material: "Натуральна шкіра / Підошва піна",
         maker: "В'єтнам",
+        more_info: "",
     },
 
     {
@@ -193,6 +196,7 @@ const items =[
         quality: 5,
         material: "Натуральна шкіра / Підошва піна",
         maker: "В'єтнам",
+        more_info: "",
     },
 
     {
@@ -205,6 +209,7 @@ const items =[
         quality: 5,
         material: "Шкіра / Сітка / Підошва піна, силіконова вставка",
         maker: "В'єтнам",
+        more_info: "",
     },
 
     {
@@ -217,6 +222,7 @@ const items =[
         quality: 5,
         material: "Натуральна шкіра / Підошва поліуретан, прошиті",
         maker: "В'єтнам",
+        more_info: "",
     },
 
     {
@@ -229,6 +235,7 @@ const items =[
         quality: 5,
         material: "Замша, піна, гума",
         maker: "В'єтнам",
+        more_info: "",
     },
 
     {
@@ -241,6 +248,7 @@ const items =[
         quality: 5,
         material: "Замша, піна, гума",
         maker: "В'єтнам",
+        more_info: "",
     },
 
     {
@@ -253,6 +261,7 @@ const items =[
         quality: 5,
         material: "Шкіра, текстиль, піна, гума",
         maker: "В'єтнам",
+        more_info: "",
     },
 
     {
@@ -265,6 +274,7 @@ const items =[
         quality: 5,
         material: "Шкіра, текстиль, піна, гума",
         maker: "В'єтнам",
+        more_info: "",
     },
 
     {
@@ -277,6 +287,7 @@ const items =[
         quality: 5,
         material: "Шкіра, текстиль, піна, гума",
         maker: "В'єтнам",
+        more_info: "",
     },
 
     {
@@ -289,6 +300,7 @@ const items =[
         quality: 5,
         material: "Шкіра, текстиль, піна, гума",
         maker: "В'єтнам",
+        more_info: "",
     },
 
     {
@@ -301,6 +313,7 @@ const items =[
         quality: 5,
         material: "нейлон, текстиль, піна, гума",
         maker: "не вказаний",
+        more_info: "",
     },
 
     {
@@ -313,6 +326,7 @@ const items =[
         quality: 5,
         material: "Водовідштовхуюча тканина, нейлон, термо утеплювач / Підошва: піна, резина",
         maker: "В‘єтнам",
+        more_info: "",
     },
 
     {
@@ -325,6 +339,7 @@ const items =[
         quality: 5,
         material: "Водовідштовхуюча тканина, нейлон, термо утеплювач / Підошва: піна, резина",
         maker: "В‘єтнам",
+        more_info: "",
     },
 
     {
@@ -337,6 +352,7 @@ const items =[
         quality: 5,
         material: "Водовідштовхуюча тканина, нейлон, термо утеплювач / Підошва: піна, резина",
         maker: "В‘єтнам",
+        more_info: "",
     },
 
     {
@@ -344,11 +360,12 @@ const items =[
         title: "Курточка Pobedov",
         img_url: [img17_1, img17_2, img17_3, img17_4, img17_5],
         price: 1299,
-        item_type: "clothes",
+        item_type: "jacket",
         sizes: ["S", "M", "L", "XL", "XXL"],
         quality: 5,
         material: "Тканина верху – еко шкіра. Щільна підкладка, яка не пропускає воду та пориви вітру, що додатково захищає від негоди. Силіконізований утеплювач 150 щільності - відмінний матеріал, який утримує тепло, але в той же час не парить. Виріб застібається металевою блискавкою. Дві бічні кишені на металевих блискавках і одна внутрішня потайна кишеня.",
         maker: "не вказаний",
+        more_info: "",
     },
 
     {
@@ -356,11 +373,12 @@ const items =[
         title: "Осіння курточка",
         img_url: [img18_1, img18_2, img18_3, img18_4, img18_5],
         price: 1299,
-        item_type: "clothes",
+        item_type: "jacket",
         sizes: ["S", "M", "L", "XL"],
         quality: 5,
         material: "Нейлон, підкладка силікон 120-й. Куртка з капюшоном, дві бічні кишені на змійці, а так само внутрішня кишеня. Крута червона змійка, що надає вам стилю. Якісна верхня прострочка ромбиком.",
         maker: "Туреччина",
+        more_info: "",
     },
 
     {
@@ -368,11 +386,12 @@ const items =[
         title: "Осіння курточка",
         img_url: [img19_1, img19_2, img19_3, img19_4, img19_5],
         price: 1299,
-        item_type: "clothes",
+        item_type: "jacket",
         sizes: ["S", "M", "L", "XL"],
         quality: 5,
         material: "Нейлон, підкладка силікон 120-й. Куртка з капюшоном, дві бічні кишені на змійці, а так само внутрішня кишеня. Крута червона змійка, що надає вам стилю. Якісна верхня прострочка ромбиком.",
         maker: "Туреччина",
+        more_info: "",
     },
 
     {
@@ -380,11 +399,12 @@ const items =[
         title: "Спортивний костюм",
         img_url: [img20_1, img20_2, img20_3, img20_4],
         price: 1099,
-        item_type: "clothes",
+        item_type: "suit",
         sizes: ["S", "M", "L", "XL"],
         quality: 5,
         material: "бавовна, поліестер, трьохнитка",
         maker: "Туреччина",
+        more_info: "",
     },
 
     {
@@ -392,11 +412,12 @@ const items =[
         title: "Спортивний костюм",
         img_url: [img21_1, img21_2, img21_3, img21_4],
         price: 1099,
-        item_type: "clothes",
+        item_type: "suit",
         sizes: ["S", "M", "L", "XL"],
         quality: 5,
         material: "бавовна, поліестер, трьохнитка",
         maker: "Туреччина",
+        more_info: "",
     },
 
     {
@@ -404,11 +425,12 @@ const items =[
         title: "Спортивний костюм",
         img_url: [img22_1, img22_2, img22_3, img22_4],
         price: 1099,
-        item_type: "clothes",
+        item_type: "suit",
         sizes: ["S", "M", "L", "XL"],
         quality: 5,
         material: "бавовна, поліестер, трьохнитка",
         maker: "Туреччина",
+        more_info: "",
     },
 
     {
@@ -416,11 +438,12 @@ const items =[
         title: "Спортивний костюм Puma",
         img_url: [img23_1, img23_2, img23_3],
         price: 1149,
-        item_type: "clothes",
+        item_type: "suit",
         sizes: ["S", "M", "L", "XL", "XLL"],
         quality: 5,
         material: "трикотаж",
         maker: "не вказаний",
+        more_info: "",
     },
 
     {
@@ -428,7 +451,7 @@ const items =[
         title: "КОСТЮМ + ЖИЛЕТКА НА СИНТЕПОНІ",
         img_url: [img24_1, img24_2],
         price: 1889,
-        item_type: "clothes",
+        item_type: "suit",
         sizes: ["S", "M", "L", "XL", "XLL"],
         quality: 5,
         material: "Велюр. Наповнювач жилету: синтепон 150",
@@ -440,23 +463,26 @@ const items =[
         title: "Демісезоний пуховичок STONE ISLAND",
         img_url: [img25_1, img25_2, img25_3, img25_4, img25_5],
         price: 2695,
-        item_type: "clothes",
+        item_type: "jacket",
         sizes: ["S", "M", "L", "XL", "XLL", "XXL"],
         quality: 5,
         material: "100% Поліестер, Водовідштовхувальний матеріал, наповнювач холлофайбер. Лого металевий значок.",
         maker: "Туреччина",
+        more_info: "",
     },
+    
 
     {
         id: 26,
         title: "Демісезоний пуховичок STONE ISLAND",
         img_url: [img26_1, img26_2, img26_3, img26_4, img26_5],
         price: 2695,
-        item_type: "clothes",
+        item_type: "jacket",
         sizes: ["S", "M", "L", "XL", "XLL", "XXL"],
         quality: 5,
         material: "100% Поліестер, Водовідштовхувальний матеріал, наповнювач холлофайбер. Лого металевий значок.",
         maker: "Туреччина",
+        more_info: "",
     },
 ];
 

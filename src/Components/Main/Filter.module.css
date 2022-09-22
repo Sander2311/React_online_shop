@@ -29,6 +29,7 @@
     border: 2px solid #0059ff;
     font-weight: bold;
     cursor: pointer;
+    box-shadow: .1rem .1rem 1rem 0 #0059ff;
 }
 
 .filter_container button:hover{

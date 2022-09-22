@@ -102,6 +102,10 @@ function Card({item, setImg}) {
                         <h2 className={s.maker_title}>Виробник:</h2>
                         <div className={s.maker_text}>{item.maker}</div> 
                     </div>
+                    <div className={s.more_info}>
+                        <h2 className={s.more_info_title}>Додаткова <br/> інформація:</h2>
+                        <div className={s.more_info_text}>{item.more_info}</div> 
+                    </div>
                     <div className={s.btn_block}>
                         <button 
                             className={s.btn} 

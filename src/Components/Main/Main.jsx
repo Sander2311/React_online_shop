@@ -34,7 +34,7 @@ function Main() {
     return ( 
         <div className={s.main}>
             <div className={s.main_title_box}>
-                <ul className={s.main_title}>kalyna
+                <ul className={s.main_title}>
                     <li>K</li>
                     <li>A</li>
                     <li>L</li>
